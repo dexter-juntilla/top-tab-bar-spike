@@ -15,6 +15,12 @@
 		A23388451E541482006B84F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23388431E541482006B84F2 /* LaunchScreen.storyboard */; };
 		A23388501E541482006B84F2 /* TopTabBarSpikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A233884F1E541482006B84F2 /* TopTabBarSpikeTests.swift */; };
 		A233885B1E541482006B84F2 /* TopTabBarSpikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A233885A1E541482006B84F2 /* TopTabBarSpikeUITests.swift */; };
+		A23388691E541521006B84F2 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23388681E541521006B84F2 /* MenuBar.swift */; };
+		A2DB35091E5438CF00DABD03 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DB35081E5438CF00DABD03 /* RedViewController.swift */; };
+		A2DB350B1E5438DE00DABD03 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DB350A1E5438DE00DABD03 /* BlueViewController.swift */; };
+		A2DB350D1E5438ED00DABD03 /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DB350C1E5438ED00DABD03 /* GreenViewController.swift */; };
+		A2DB350F1E5438FB00DABD03 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DB350E1E5438FB00DABD03 /* YellowViewController.swift */; };
+		A2DB35521E544EC900DABD03 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DB35511E544EC900DABD03 /* MenuCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		A23388561E541482006B84F2 /* TopTabBarSpikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopTabBarSpikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A233885A1E541482006B84F2 /* TopTabBarSpikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTabBarSpikeUITests.swift; sourceTree = "<group>"; };
 		A233885C1E541482006B84F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23388681E541521006B84F2 /* MenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		A2DB35081E5438CF00DABD03 /* RedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		A2DB350A1E5438DE00DABD03 /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		A2DB350C1E5438ED00DABD03 /* GreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		A2DB350E1E5438FB00DABD03 /* YellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		A2DB35511E544EC900DABD03 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +113,13 @@
 			children = (
 				A23388371E541482006B84F2 /* AppDelegate.swift */,
 				A23388391E541482006B84F2 /* ViewController.swift */,
+				A23388681E541521006B84F2 /* MenuBar.swift */,
+				A2DB35511E544EC900DABD03 /* MenuCell.swift */,
 				A233883B1E541482006B84F2 /* Main.storyboard */,
+				A2DB35081E5438CF00DABD03 /* RedViewController.swift */,
+				A2DB350A1E5438DE00DABD03 /* BlueViewController.swift */,
+				A2DB350C1E5438ED00DABD03 /* GreenViewController.swift */,
+				A2DB350E1E5438FB00DABD03 /* YellowViewController.swift */,
 				A23388411E541482006B84F2 /* Assets.xcassets */,
 				A23388431E541482006B84F2 /* LaunchScreen.storyboard */,
 				A23388461E541482006B84F2 /* Info.plist */,
@@ -265,9 +283,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2DB350F1E5438FB00DABD03 /* YellowViewController.swift in Sources */,
+				A2DB35091E5438CF00DABD03 /* RedViewController.swift in Sources */,
+				A2DB35521E544EC900DABD03 /* MenuCell.swift in Sources */,
 				A23388401E541482006B84F2 /* TopTabBarSpike.xcdatamodeld in Sources */,
 				A233883A1E541482006B84F2 /* ViewController.swift in Sources */,
+				A23388691E541521006B84F2 /* MenuBar.swift in Sources */,
+				A2DB350B1E5438DE00DABD03 /* BlueViewController.swift in Sources */,
 				A23388381E541482006B84F2 /* AppDelegate.swift in Sources */,
+				A2DB350D1E5438ED00DABD03 /* GreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +542,7 @@
 				A23388611E541482006B84F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A23388621E541482006B84F2 /* Build configuration list for PBXNativeTarget "TopTabBarSpikeTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +551,7 @@
 				A23388641E541482006B84F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A23388651E541482006B84F2 /* Build configuration list for PBXNativeTarget "TopTabBarSpikeUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +560,7 @@
 				A23388671E541482006B84F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
